@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+title "Buy Train Ticket"
+caption "Deployment Diagram"
+
+actor Buyer
+
+frame "Internal Systems"{
+	actor :Sales Department: as SalesDept
+	cloud "Cloud Services from Amazon Web Services (AWS)"{
+		node "Services"{
+			component "Ticket Shop" as TicketShop
+			component "Ticket Check Service" as TicketCheckService
+		}
+		node "Database"{
+			database Tickets as TicketsDb
+		}
+		queue "Synchronize Tickets to Reports" as SyncQueue
+		node "Reports"{
+			database "Sales Reports" as ReportsDb
+		}
+	}
+}
+frame "Train"{
+	node MobileDevice{
+		component TicketCheckApp
+	}
+	actor :TrainPersonnel: as TrainPersonnel
+}
+
+Buyer --> TicketShop
+TicketShop -- TicketsDb
+TicketsDb -- SyncQueue
+SyncQueue -- ReportsDb
+Reports -- SalesDept
+TrainPersonnel --> TicketCheckApp
+TicketCheckApp -- TicketCheckService
+TicketCheckService -- TicketsDb
+:Passenger: -- TrainPersonnel
+@enduml

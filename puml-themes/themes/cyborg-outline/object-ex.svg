@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="293.75px" preserveAspectRatio="none" style="width:531px;height:293px;background:#000000;" version="1.1" viewBox="0 0 531 293" width="531.25px" zoomAndPan="magnify"><defs/><g><rect fill="#000000" height="46.1528" rx="4.1667" ry="4.1667" style="stroke: #777777; stroke-width: 1.0416666666666667;" width="440.625" x="51.5625" y="2.0833"/><text fill="#2A9FD6" font-family="Verdana" font-size="20.8333" lengthAdjust="spacingAndGlyphs" textLength="413.5417" x="65.1042" y="33.4452">Object Diagram - cyborg-outline theme</text><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="6.25" y="59.6944"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="18.75" y="79.5532">Object01</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="7.2917" x2="89.5833" y1="89.4694" y2="89.4694"/><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="6.25" y="215.9444"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="18.75" y="235.8032">Object02</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="7.2917" x2="89.5833" y1="245.7194" y2="245.7194"/><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="127.0833" y="59.6944"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="139.5833" y="79.5532">Object03</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="128.125" x2="210.4167" y1="89.4694" y2="89.4694"/><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="127.0833" y="215.9444"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="139.5833" y="235.8032">Object04</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="128.125" x2="210.4167" y1="245.7194" y2="245.7194"/><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="247.9167" y="59.6944"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="260.4167" y="79.5532">Object05</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="248.9583" x2="331.25" y1="89.4694" y2="89.4694"/><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="247.9167" y="215.9444"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="260.4167" y="235.8032">Object06</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="248.9583" x2="331.25" y1="245.7194" y2="245.7194"/><rect fill="#000000" height="46.4417" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="84.375" x="392.7083" y="59.6944"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="405.2083" y="79.5532">Object07</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="393.75" x2="476.0417" y1="89.4694" y2="89.4694"/><rect fill="#000000" height="86.793" rx="4.1667" ry="4.1667" style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" width="131.25" x="369.2708" y="196.1528"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="59.375" x="405.2083" y="216.0116">Object08</text><line style="stroke: #55B2DE; stroke-width: 1.0416666666666667;" x1="370.3125" x2="499.4792" y1="225.9277" y2="225.9277"/><text fill="#777777" font-family="Verdana" font-size="11.4583" lengthAdjust="spacingAndGlyphs" textLength="108.3333" x="380.7292" y="246.8226">name = "Dummy"</text><text fill="#777777" font-family="Verdana" font-size="11.4583" lengthAdjust="spacingAndGlyphs" textLength="50" x="380.7292" y="271.165">id = 123</text><!--MD5=[507381b32e0a49e7abc7210229a8ee60]
+reverse link Object01 to Object02--><path d="M48.4375,127.9167 C48.4375,156.6295 48.4375,192.7381 48.4375,215.9395 " fill="none" id="Object01&lt;-Object02" style="stroke: #2A9FD6; stroke-width: 3.125;"/><polygon fill="none" points="41.1459,127.6963,48.4375,106.863,55.7293,127.6962,41.1459,127.6963" style="stroke: #2A9FD6; stroke-width: 3.125;"/><!--MD5=[d21c20b16b3ff22abbc2c8af84931b60]
+reverse link Object03 to Object04--><path d="M169.2708,120.4315 C169.2708,150.0919 169.2708,190.6707 169.2708,215.9395 " fill="none" id="Object03&lt;-Object04" style="stroke: #2A9FD6; stroke-width: 3.125;"/><polygon fill="#2A9FD6" points="169.2708,106.863,165.1042,113.113,169.2708,119.363,173.4375,113.113,169.2708,106.863" style="stroke: #2A9FD6; stroke-width: 3.125;"/><!--MD5=[ade907096602ef8d7fe19339b46bff0e]
+reverse link Object05 to Object06--><path d="M290.1042,120.4315 C290.1042,150.0919 290.1042,190.6707 290.1042,215.9395 " fill="none" id="Object05&lt;-Object06" style="stroke: #2A9FD6; stroke-width: 3.125;"/><polygon fill="#000000" points="290.1042,106.863,285.9375,113.113,290.1042,119.363,294.2708,113.113,290.1042,106.863" style="stroke: #2A9FD6; stroke-width: 3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="8.3333" x="274.1602" y="199.6382">4</text><!--MD5=[17488501a7bed181c851ca0c615fb4f2]
+link Object07 to Object08--><path d="M434.8958,106.863 C434.8958,130.4256 434.8958,167.0933 434.8958,195.89 " fill="none" id="Object07-Object08" style="stroke: #2A9FD6; stroke-width: 3.125; stroke-dasharray: 7.0,7.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacingAndGlyphs" textLength="78.125" x="441.1458" y="156.6366">some labels</text><!--MD5=[5869f86e081ea8df0705e5e42f40a295]
+@startuml
+
+
+
+skinparam backgroundColor black
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              black
+}
+
+skinparam legend {
+	BackgroundColor black
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor black
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	ParticipantBorderThickness 2
+}
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	FontColor #2A9FD6
+}
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor black
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor black
+	BoxBorderColor #ADAFAE
+	BoxFontColor $DARk
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor black
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor black
+	GroupHeaderBackgroundColor black
+	DividerBackgroundColor black
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor black
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor black
+}
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor black
+}
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+}
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	FontColor #2A9FD6
+}
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	FontColor #2A9FD6
+}
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	FontColor #2A9FD6
+}
+
+skinparam agent {
+	BackgroundColor black
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor black
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+skinparam artifact {
+	BackgroundColor black
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+}
+
+skinparam interface {
+	BackgroundColor  black
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+skinparam storage {
+	BackgroundColor black
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+skinparam node {
+	BackgroundColor  black
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+skinparam cloud {
+	BackgroundColor black
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	FontColor #2A9FD6
+}
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+skinparam package {
+	BackgroundColor black
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+skinparam folder {
+	BackgroundColor black
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+skinparam frame {
+	BackgroundColor black
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+}
+
+skinparam card {
+	BackgroundColor black
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+skinparam file {
+	BackgroundColor black
+	BorderColor #555
+	FontColor #555
+}
+
+skinparam stack {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor black
+}
+
+title Object Diagram - cyborg-outline theme
+
+
+object Object01
+object Object02
+object Object03
+object Object04
+object Object05
+object Object06
+object Object07
+object Object08
+Object08 : name = "Dummy"
+Object08 : id = 123
+
+Object01 <|- - Object02
+Object03 *- - Object04
+Object05 o- - "4" Object06
+Object07 .. Object08 : some labels
+
+@enduml
+
+PlantUML version 1.2020.00(Sat Jan 11 04:30:53 PST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

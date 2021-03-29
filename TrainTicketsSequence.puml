@@ -1,0 +1,21 @@
+@startuml
+
+title "Buy Train Ticket"
+caption "Sequence diagram for the Buy Train Ticket use case"
+
+actor Buyer
+participant TicketShop
+database Tickets
+database SalesReports
+
+autonumber
+Buyer -> TicketShop: Buy ticket
+TicketShop -> Tickets: Check availability
+Tickets --> TicketShop: Available
+TicketShop -> Tickets: Create Ticket
+Tickets --> TicketShop: Ticket Created
+TicketShop --> Buyer: Confirm Ticket Bought
+Tickets -> SalesReports: New Ticket Bought
+SalesReports --> Tickets: OK, Stored
+
+@enduml

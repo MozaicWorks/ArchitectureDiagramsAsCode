@@ -1,0 +1,19 @@
+!include ./puml-themes/themes/cerulean/puml-theme-cerulean.puml
+skinparam backgroundColor #FFFFFF
+center footer <img:./img/logo-mozaicworks.png>
+
+skinparam Usecase{
+	StereotypeFontColor White
+	BorderColor Aquamarine
+	BorderColor<<UnhappyPath>> BlueViolet
+}
+
+skinparam cloud{
+	BackgroundColor White
+	BorderColor Olive
+	FontColor Olive
+}
+
+skinparam database{
+	Fontcolor White
+}

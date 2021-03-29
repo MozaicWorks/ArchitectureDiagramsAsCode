@@ -1,0 +1,44 @@
+@startuml
+left to right direction
+title "Buy Train Ticket"
+
+package Customer{
+	actor Buyer
+	actor Passenger
+}
+
+note right of Buyer: Passenger and Buyer can be the same person
+
+package Train{
+	actor :Train Personnel: as TrainPersonnel
+}
+
+package TrainCompany{
+	actor :Back Office: as BackOffice
+	actor :Sales Department: as SalesDept
+}
+
+usecase ReserveTicket as "Reserve ticket 
+==
+Reservation can be done before buying a ticket or afterwards. 
+Reservation can be canceled."
+
+usecase BuyTicket as "Buy Ticket"
+usecase UseTicket as "Use Ticket"
+usecase CheckTicket as "Check Ticket"
+usecase GetsTicketSalesReport as "Gets Ticket Sales Report"
+usecase ComplainAboutTrip <<UnhappyPath>> as "Complains about trip"
+usecase AnalyzeComplaint <<UnhappyPath>> as "Analyze trip complaint"
+usecase ReimburseTicket <<UnhappyPath>> as "Reimburse ticket"
+
+caption "Use Case Diagram"
+Buyer --> ReserveTicket
+Buyer --> BuyTicket
+Passenger --> UseTicket
+Passenger --> ComplainAboutTrip
+TrainPersonnel --> CheckTicket
+SalesDept --> GetsTicketSalesReport
+BackOffice --> AnalyzeComplaint
+SalesDept --> ReimburseTicket
+
+@enduml
