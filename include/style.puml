@@ -13,7 +13,3 @@ skinparam cloud{
 	BorderColor Olive
 	FontColor Olive
 }
-
-skinparam database{
-	Fontcolor White
-}
