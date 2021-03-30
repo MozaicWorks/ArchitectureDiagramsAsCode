@@ -1,6 +1,6 @@
 COMMAND=java -jar bin/plantuml.jar -I"./include/style.puml" -o "out"
-STRUCTURIZR_PUML=java -jar bin/plantuml.jar -I"../include/style.puml" -o "../out"
-STRUCTURIZR = ./bin/structurizr.sh export -format plantuml -output structurizr-output -workspace 
+STRUCTURIZR_PUML=java -jar bin/plantuml.jar -I"../include/c4-plantuml/C4.puml" -I"../include/style.puml" -o "../out" 
+STRUCTURIZR = ./bin/structurizr.sh export -format plantuml/c4plantuml -output structurizr-output -workspace 
 
 all: .puml structurizr
 

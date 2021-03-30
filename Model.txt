@@ -1,51 +1,60 @@
-workspace "Getting Started" "This is a model of my software system." {
+workspace "TrainTickets" "The model of the train tickets system." {
+	model {
+		buyer = person "Buyer" "The train ticket buyer"
+			passenger = person "Passenger" "The train passenger using the ticket."
+			enterprise "Train Company"{
+				trainPersonnel = person "Train Personnel" "The train personnel that checks the ticket."
+					salesDept = person "Sales Department" "The sales department of the train company."
+					backOffice = person "Back Office" "The back office of the train company."
 
-    model {
-        buyer = person "Buyer" "The train ticket buyer"
-		passenger = person "Passenger" "The train passenger using the ticket."
-		trainPersonnel = person "Train Personnel" "The train personnel that checks the ticket."
-		salesDept = person "Sales Department" "The sales department of the train company."
-		backOffice = person "Back Office" "The back office of the train company."
+					trainTicketSystem = softwareSystem "Ticketing System" "Allows ticket sales and sales reports and managing complaints"{
+						ticketShop = container "Ticket Shop" "The ticket shop."
+							ticketDatabase = container "Ticket Database" "The tickets storage"
+							complaints = container "Complaints Service" "The interface used to file and update complaints."
+							ticketCheck = container "Ticket Check" "The app used to validate tickets."
+							ticketCheckService = container "Ticket Check Service" "The system used to check tickets by the train personnel"
+							salesReports = container "Sales Reports" "The system for generating reports based on ticket sales."
+					}
+			}
 
+		buyer -> ticketShop "Buys ticket" "https"
+			trainPersonnel -> passenger "Verifies ticket" "QR Code"
+			trainPersonnel -> ticketCheck "Uses the app to check ticket" "https"
+			passenger -> complaints "Files Complaint" "https"
+			backOffice -> complaints "Manages complaints" "https"
+			ticketShop -> salesReports "Sends tickets data" "message queue"
+			ticketShop -> ticketDatabase "Checks and stores tickets" "AWS Aurora"
+			ticketCheck -> ticketCheckService "Checks ticket" "https"
+			ticketCheckService -> ticketDatabase "Checks ticket" "SQL"
+			salesDept -> salesReports "Check sales reports" "email"
 
-		trainTicketSystem = softwareSystem "Ticketing System" "Allows ticket sales and sales reports and managing complaints"{
-			ticketShop = container "Ticket Shop" "The ticket shop."
-			ticketDatabase = container "Ticket Database" "The tickets storage"
-			complaints = container "Complaints Service" "The interface used to file and update complaints."
-			ticketCheck = container "Ticket Check" "The app used to validate tickets."
-			ticketCheckService = container "Ticket Check Service" "The system used to check tickets by the train personnel"
-			salesReports = container "Sales Reports" "The system for generating reports based on ticket sales."
+	}
+
+	views {
+		systemContext trainTicketSystem "TicketSystem_context_diagram" "TicketSystem context diagram." {
+			include *
+			autoLayout
+		}
+		systemLandscape trainTicketLandscape "TicketSystem_Landscape_Diagram" "TicketSystem Landscape Diagram"{
+			include *
+			autoLayout
 		}
 
-        buyer -> ticketShop "Buys ticket"
-		trainPersonnel -> passenger "Verifies ticket"
-		trainPersonnel -> ticketCheck "Uses the app to check ticket"
-		passenger -> complaints "Files Complaint"
-		backOffice -> complaints "Manages complaints"
-		ticketShop -> salesReports "Sends tickets data"
-		ticketShop -> ticketDatabase "Checks and stores tickets"
-		ticketCheck -> ticketCheckService "Checks ticket"
-		ticketCheckService -> ticketDatabase "Checks ticket"
-		salesDept -> salesReports "Check sales reports"
+		container trainTicketSystem "TicketSystem_container_diagram" "TicketSystem container diagram."{
+			include *
+			autoLayout
+		}
 
-    }
-
-    views {
-        systemContext trainTicketSystem "SystemContext" "TicketSystem context diagram." {
-            include *
-            autoLayout
-        }
-
-        styles {
-            element "Software System" {
-                background #1168bd
-                color #ffffff
-            }
-            element "Person" {
-                shape person
-                background #08427b
-                color #ffffff
-            }
-        }
-    }
+		styles {
+			element "Software System" {
+				background #1168bd
+					color #ffffff
+			}
+			element "Person" {
+				shape person
+					background #08427b
+					color #ffffff
+			}
+		}
+	}
 }
