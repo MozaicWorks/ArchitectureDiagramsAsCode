@@ -1,14 +1,37 @@
 workspace "Getting Started" "This is a model of my software system." {
 
     model {
-        user = person "User" "A user of my software system."
-        softwareSystem = softwareSystem "Software System" "My software system."
+        buyer = person "Buyer" "The train ticket buyer"
+		passenger = person "Passenger" "The train passenger using the ticket."
+		trainPersonnel = person "Train Personnel" "The train personnel that checks the ticket."
+		salesDept = person "Sales Department" "The sales department of the train company."
+		backOffice = person "Back Office" "The back office of the train company."
 
-        user -> softwareSystem "Uses"
+
+		trainTicketSystem = softwareSystem "Ticketing System" "Allows ticket sales and sales reports and managing complaints"{
+			ticketShop = container "Ticket Shop" "The ticket shop."
+			ticketDatabase = container "Ticket Database" "The tickets storage"
+			complaints = container "Complaints Service" "The interface used to file and update complaints."
+			ticketCheck = container "Ticket Check" "The app used to validate tickets."
+			ticketCheckService = container "Ticket Check Service" "The system used to check tickets by the train personnel"
+			salesReports = container "Sales Reports" "The system for generating reports based on ticket sales."
+		}
+
+        buyer -> ticketShop "Buys ticket"
+		trainPersonnel -> passenger "Verifies ticket"
+		trainPersonnel -> ticketCheck "Uses the app to check ticket"
+		passenger -> complaints "Files Complaint"
+		backOffice -> complaints "Manages complaints"
+		ticketShop -> salesReports "Sends tickets data"
+		ticketShop -> ticketDatabase "Checks and stores tickets"
+		ticketCheck -> ticketCheckService "Checks ticket"
+		ticketCheckService -> ticketDatabase "Checks ticket"
+		salesDept -> salesReports "Check sales reports"
+
     }
 
     views {
-        systemContext softwareSystem "SystemContext" "An example of a System Context diagram." {
+        systemContext trainTicketSystem "SystemContext" "TicketSystem context diagram." {
             include *
             autoLayout
         }
