@@ -6,7 +6,7 @@ This repository includes an example on building architecture diagrams by using c
 
 The repository contains all the necessary tools for a quick run. See below the dependencies used. You just need to clone the repository and use the makefile.
 
-`make` generates png and svg versions of diagrams
+`make` generates png and svg versions of plantUML diagrams, and png versions of Structurizr diagrams
 
 `make open` opens the png files with the default program on Linux (needs xdg-open)
 
